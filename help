@@ -1,2 +1,2 @@
 To know a class of a program : xprop
-
+To change default browser : edit the browser entry in /home/$USER/.profile then find and replace all Pale Moon entries in /home/$USER/.config/mimeapps.list It usually works with chrome
