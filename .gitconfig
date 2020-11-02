@@ -1,0 +1,9 @@
+[user]
+	email = a.mo.dewidar@gmail.com
+	name = Ahmed Dewidar
+[alias]
+	co = checkout
+	lg = log --oneline
+	cm = commit
+	st = status
+	cob = checkout -b

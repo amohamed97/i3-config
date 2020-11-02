@@ -1,17 +1,17 @@
 #!/bin/bash
 sudo pacman -Syu
 sudo pacman -S git
-git config --global user.email "a.mo.dewidar@gmail.com"
-git config --global user.name "Ahmed Dewidar"
+sudo pacman -S nautilus
 sudo pacman -S chromium
 sed -i 's/palemoon/chromium/g' ~/.profile
-sed -i 's/"Pale Moon"/chromium/g' ~/.config/mimeapps.list
+sed -i 's/Pale Moon/chromium/g' ~/.config/mimeapps.list
 sudo pacman -R palemoon-bin
-sudo pacman -S thunderbird
+sudo pacman -S termite
+echo "export TERMINAL=/usr/bin/termite" >> ~/.profile
+sudo pacman -S code
 sudo pacman -S zsh
 chsh -s $(which zsh)
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-sudo pacman -S termite
-echo "export TERMINAL=/usr/bin/termite" >> ~/.profile
-echo "options snd_hda_intel index=1" | sudo tee -a /etc/modprobe.d/alsa-base.conf
-sudo pacman -S code
+
+## Uncomment this if you remembered what it does
+#echo "options snd_hda_intel index=1" | sudo tee -a /etc/modprobe.d/alsa-base.conf

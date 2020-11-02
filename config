@@ -187,6 +187,7 @@ assign [class="Termite"] $ws1
 assign [class="Thunderbird"] $ws5
 assign [class="Chromium"] $ws4
 assign [class="Nautilus"] $ws3
+assign [class="Postman"] $ws3
 assign [class="code"] $ws2
 # assign [class="Skype"] $ws5
 
