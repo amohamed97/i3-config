@@ -1,0 +1,3 @@
+sudo apt install bc module-assistant build-essential dkms
+cd rtl8821ce/
+sudo ./dkms-install.sh
