@@ -1,0 +1,2 @@
+Run touchpad_tap if it's a laptop and the touchpad tap isn't working
+copy i3exit to /usr/bin with executable permissions
