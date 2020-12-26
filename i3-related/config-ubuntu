@@ -229,3 +229,4 @@ bar {
 
 # Add arabic keyboard with alt+shift
 exec_always "setxkbmap -model pc104 -layout us,ar -variant ,, -option grp:alt_shift_toggle"
+for_window [class="Chromium" window_role="pop-up"] floating enable, move position absolute center
